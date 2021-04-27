@@ -8,9 +8,9 @@ import "react-toastify/dist/ReactToastify.css";
 import { FaImage } from "react-icons/fa";
 import moment from "moment";
 import { API_URL } from "@/config/index";
-import Layout from "@/components/Layout";
-import Modal from "@/components/Modal";
-import ImageUpload from "@/components/ImageUpload";
+import Layout from "@/components/layout";
+import Modal from "@/components/modal";
+import ImageUpload from "@/components/imageUpload";
 import styles from "@/styles/Form.module.css";
 import Image from "next/image";
 

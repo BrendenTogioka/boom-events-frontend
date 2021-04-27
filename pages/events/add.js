@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { API_URL } from "@/config/index";
-import Layout from "@/components/Layout";
+import Layout from "@/components/layout";
 import styles from "@/styles/Form.module.css";
 
 export default function AddEventPage({ token }) {

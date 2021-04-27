@@ -3,8 +3,8 @@ import Link from "next/link";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Layout from "@/components/Layout";
-import EventMap from "@/components/EventMap";
+import Layout from "@/components/layout";
+import EventMap from "@/components/eventMap";
 import { API_URL } from "@/config/index";
 import styles from "@/styles/Event.module.css";
 

@@ -1,8 +1,8 @@
 import qs from "qs";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import Layout from "@/components/Layout";
-import EventItem from "@/components/EventItem";
+import Layout from "@/components/layout";
+import EventItem from "@/components/eventItem";
 import { API_URL } from "@/config/index";
 
 export default function SearchPage({ events }) {

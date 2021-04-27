@@ -1,9 +1,9 @@
 import { parseCookies } from "@/helpers/index";
-import Layout from "@/components/Layout";
+import Layout from "@/components/layout";
 import { useRouter } from "next/router";
 import { API_URL } from "@/config/index";
 import styles from "@/styles/Dashboard.module.css";
-import DashboardEvent from "@/components/DashboardEvent";
+import DashboardEvent from "@/components/dashboardEvent";
 
 export default function DashboardPage({ events, token }) {
   const router = useRouter();
