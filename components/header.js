@@ -2,7 +2,7 @@ import Link from "next/link";
 import { FaSignInAlt, FaSignOutAlt } from "react-icons/fa";
 import AuthContext from "@/context/AuthContext";
 import styles from "@/styles/Header.module.css";
-import Search from "./Search";
+import Search from "./search";
 import { useContext } from "react";
 
 export default function Header() {
